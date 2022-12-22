@@ -12,7 +12,7 @@ public class User {
 	private String fname;
 	private String lname;
 	private String email;
-	private long phone;
+	private String phone;
 	private Date dob;
 	private String gender;
 	private String country;

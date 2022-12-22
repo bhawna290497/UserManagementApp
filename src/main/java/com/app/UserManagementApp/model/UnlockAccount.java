@@ -5,8 +5,10 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Login {
+public class UnlockAccount {
 
 	private String email;
-	private String password;
+	private String tempPassword;
+	private String newPassword;
+	private String confirmPwd;
 }
